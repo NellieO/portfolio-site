@@ -47,6 +47,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/************** End Reset **************/
+/*Fonts*/
+/*Colors*/
 /**MY STYLE**/
 body {
   font-family: 'Karla', sans-serif; }
@@ -86,10 +89,11 @@ h3 {
 
 p {
   /*Body Copy*/
+  font-family: "Muli", sans-serif;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 16px;
   color: #999999;
-  line-height: 35px; }
+  line-height: 24px; }
 
 h5 {
   /*Navigation Styles*/
@@ -203,7 +207,7 @@ header.test-header {
 /*About Section Styles*/
 #about {
   width: 90%;
-  max-width: 1024px;
+  max-width: 785px;
   margin: auto; }
 
 #photo {
@@ -217,7 +221,7 @@ header.test-header {
   border: #BFD775 3px solid; }
 
 #aboutme {
-  width: 80%;
+  width: 75%;
   float: right; }
 
 /*Portfolio Section Styles*/
@@ -404,8 +408,7 @@ img.pd {
 /*Contact Section Styles*/
 #contact {
   width: 90%;
-  max-width: 1024px;
-  /*height:468px;*/
+  max-width: 785px;
   margin: auto;
   padding-bottom: 40px; }
 
@@ -498,10 +501,12 @@ a.back-to-top {
   #nav-inner {
     width: 90%;
     margin: auto; } }
-@media screen and (max-width: 942px) {
-  #aboutme {
-    width: 75%;
-    float: right; } }
+/*@media screen and (max-width:942px){
+	#aboutme{
+		width:75%;
+		float:right;
+	}
+}*/
 @media screen and (max-width: 878px) {
   .icon-angle-right {
     left: 86%; } }
@@ -547,9 +552,6 @@ a.back-to-top {
   h1.light {
     display: none; }
 
-  #contact {
-    padding-bottom: 90px; }
-
   #project img, img.pd, img.ipad, img.iphone, img.gs, img.type, img.ss {
     max-width: 100% !important; }
 
@@ -574,8 +576,5 @@ a.back-to-top {
 
   .fa-bars {
     left: 66%; } }
-@media screen and (max-width: 440px) {
-  #contact {
-    margin-bottom: 93px; } }
 
 /*# sourceMappingURL=style.css.map */

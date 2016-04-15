@@ -49,9 +49,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/************** End Reset **************/
+
+/*Fonts*/
+$karla:'Karla', sans-serif;
+$muli:'Muli', sans-serif;
+
+/*Colors*/
+$blue:#91D5CD;
+$green:#BFD775;
+$pink:#E9736E;
+$light-gray:#999999;
+$mid-gray:#666666;
+$dark-gray:#717171;
+
 
 /**MY STYLE**/
-
 body{
 	font-family: 'Karla', sans-serif;
 }
@@ -59,7 +72,7 @@ body{
 h1{ /*Section Headers*/
 	font-weight: 700;
 	font-size:30px;
-	color:#91D5CD;
+	color:$blue;
 	text-transform:uppercase;
 	margin-bottom:15px;
 }
@@ -72,7 +85,7 @@ h1.light{/*Portfolio Headers*/
 h2{/*Header Slider Main*/
 	font-weight: 700;
 	font-size:48px;
-	color:#E9736E;/*Pink*/
+	color:$pink;/*Pink*/
 
 }
 
@@ -85,43 +98,44 @@ h2.secondary{/*Header Slider Secondary*/
 h3{/*Subheads*/
 	font-weight: 700;
 	font-size:25px;
-	color:#999999;
+	color:$light-gray;
 	text-transform:uppercase;
 	margin-bottom:10px;
 }
 
 p{/*Body Copy*/
+	font-family:$muli;
 	font-weight: 400;
-	font-size:17px;
-	color:#999999;
-	line-height:35px;
+	font-size:16px;
+	color:$light-gray;
+	line-height:24px;
 }
 
 
 h5{/*Navigation Styles*/
 	font-weight: 700;
 	font-size:16px;
-	color:#999999;
+	color:$light-gray;
 	text-transform:uppercase;
 }
 
 a{
 	text-decoration:underline;
-	color:#91D5CD; /*Blue*/
+	color:$blue; /*Blue*/
 }
 
 a:hover{
-	color:#E9736E; /*Pink*/
+	color:$pink; /*Pink*/
 }
 
 #navigation a{
 	text-decoration:none;
-	color:#999999;/*Gray*/
+	color:$light-gray;/*Gray*/
 }
 
 #navigation a:hover{
 	text-decoration:underline;
-	color:#91D5CD; /*Blue*/
+	color:$blue; /*Blue*/
 }
 
 /**STRUCTURE**/
@@ -203,7 +217,7 @@ header{
 
 header.test-header{
 	background:url('../images/cover-green.jpg') no-repeat center center; background-size:cover;
-	h2.secondary{color:#717171;}
+	h2.secondary{color:$dark-gray;}
 }
 
 #intro{
@@ -220,13 +234,13 @@ header.test-header{
 .separator{
 	width:100%;
 	height:5px;
-	background-color:#BFD775;/*Green*/
+	background-color:$green;/*Green*/
 }
 
 /*About Section Styles*/
 #about{
 	width:90%;
-	max-width:1024px;
+	max-width:785px;
 	margin:auto;
 }
 
@@ -239,11 +253,11 @@ header.test-header{
 	border-radius:90px;
 	width:100%;
 	max-width:150px;
-	border:#BFD775 3px solid;
+	border:$green 3px solid;
 }
 
 #aboutme{
-	width:80%;
+	width:75%;
 	float:right;
 }
 
@@ -381,7 +395,7 @@ header.test-header{
 .icon-angle-left, .icon-angle-right{
 	font-weight: 700;
 	font-size:18px;
-	color:#999999;
+	color:$light-gray;
 	text-transform:uppercase;
 	margin-bottom:15px;
 	display:inline-block;
@@ -453,8 +467,7 @@ img.pd{
 /*Contact Section Styles*/
 #contact{
 	width:90%;
-	max-width:1024px;
-	/*height:468px;*/
+	max-width:785px;
 	margin:auto;
 	padding-bottom:40px;
 }
@@ -463,11 +476,11 @@ input{
 	width:99%;
 	padding-left:15px;
 	height:35px;
-	border: 1px #91D5CD solid;
+	border: 1px $blue solid;
 	border-radius:5px;
 	margin:10px 0;
 	font-family: 'Karla', sans-serif;
-	color:#666666;
+	color:$mid-gray;
 }
 
 textarea{
@@ -476,10 +489,10 @@ textarea{
 	padding-left:15px;
 	padding-top:15px;
 	border-radius:5px;
-	border: 1px #91D5CD solid;
+	border: 1px $blue solid;
 	margin:10px 0;
 	font-family: 'Karla', sans-serif;
-	color:#666666;
+	color:$mid-gray;
 }
 
 button.send{
@@ -487,7 +500,7 @@ button.send{
 	height:50px;
 	border:none;
 	border-radius:5px;
-	background-color:#91D5CD;
+	background-color:$blue;
 	color:white;
 	font-size:20px;
 	font-weight: 700;
@@ -496,17 +509,17 @@ button.send{
 }
 
 button.send:hover{
-	background-color:#BFD775;/*Green*/
+	background-color:$green;/*Green*/
 }
 
 input:focus, textarea:focus {
-	border:1px solid #BFD775;
+	border:1px solid $green;
 }
 
 footer{
 	width:100%;
 	height:50px;
-	background-color:#BFD775;
+	background-color:$green;
 }
 
 #social{
@@ -527,7 +540,7 @@ a.back-to-top{
 	background-color: white;
 	padding: 7px 11px;
 	border-radius: 60px;
-	color: #91D5CD;
+	color: $blue;
 	text-decoration:none;
 	font-size:20px;
 	-webkit-box-shadow: 1px 1px 15px 0px rgba(148,148,148,0.2);
@@ -548,7 +561,7 @@ a.back-to-top{
 }
 
 .social-media li a:hover, a.back-to-top:hover{
-	color:#E9736E;
+	color:$pink;
 	text-decoration:none;
 }
 
@@ -563,12 +576,12 @@ a.back-to-top{
 	}
 }
 
-@media screen and (max-width:942px){
+/*@media screen and (max-width:942px){
 	#aboutme{
 		width:75%;
 		float:right;
 	}
-}
+}*/
 
 @media screen and (max-width:878px){
 	.icon-angle-right{
@@ -609,7 +622,7 @@ a.back-to-top{
 		left: 72%;
 		top: 18px;
 		font-size: 30px;
-		color: #999999;
+		color: $light-gray;
 	}
 
 	#mobile-nav{
@@ -628,10 +641,6 @@ a.back-to-top{
 @media screen and (max-width:640px){
 	h1.light{
 		display:none;
-	}
-
-	#contact{
-		padding-bottom:90px;
 	}
 
 	#project img, img.pd, img.ipad, img.iphone, img.gs, img.type, img.ss{
@@ -671,11 +680,5 @@ a.back-to-top{
 
 	.fa-bars{
 		left: 66%;
-	}
-}
-
-@media screen and (max-width:440px){
-	#contact{
-		margin-bottom:93px;
 	}
 }
