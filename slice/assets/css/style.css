@@ -124,7 +124,7 @@ a:hover {
 body {
   width: 100%; }
 
-#container {
+.container {
   width: 100%;
   margin: auto; }
 
@@ -142,7 +142,7 @@ body {
 #home #navigation {
   background-color: transparent; }
 
-.icon-menu {
+.fa-bars {
   display: none; }
 
 #mobile-nav {
@@ -174,13 +174,13 @@ nav ul li {
 header {
   width: 100%;
   height: 380px;
-  background: url("images/workspace.png") no-repeat center -224px fixed;
+  background: url("../images/workspace.png") no-repeat center -224px fixed;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover; }
 
 header.test-header {
-  background: url("images/cover-green.jpg") no-repeat center center;
+  background: url("../images/cover-green.jpg") no-repeat center center;
   background-size: cover; }
   header.test-header h2.secondary {
     color: #717171; }
@@ -234,55 +234,55 @@ header.test-header {
   float: left; }
 
 .chrysalis-thumb {
-  background: url("images/thumb-chrysalis.jpg") no-repeat center;
+  background: url("../images/thumb-chrysalis.jpg") no-repeat center;
   background-size: cover; }
 
 .yir-thumb {
-  background: url("images/thumb-yir.jpg") no-repeat center;
+  background: url("../images/thumb-yir.jpg") no-repeat center;
   background-size: cover; }
 
 .pd-thumb {
-  background: url("images/thumb-pd.jpg") no-repeat center;
+  background: url("../images/thumb-pd.jpg") no-repeat center;
   background-size: cover; }
 
 .fitz-thumb {
-  background: url("images/thumb-fitz.jpg") no-repeat center;
+  background: url("../images/thumb-fitz.jpg") no-repeat center;
   background-size: cover; }
 
 .type-thumb {
-  background: url("images/thumb-type.jpg") no-repeat center;
+  background: url("../images/thumb-type.jpg") no-repeat center;
   background-size: cover; }
 
 .sb-thumb {
-  background: url("images/thumb-sb.jpg") no-repeat center;
+  background: url("../images/thumb-sb.jpg") no-repeat center;
   background-size: cover; }
 
 .mama-thumb {
-  background: url("images/thumb-mama.jpg") no-repeat center;
+  background: url("../images/thumb-mama.jpg") no-repeat center;
   background-size: cover; }
 
 .ss-thumb {
-  background: url("images/thumb-ss.jpg") no-repeat center;
+  background: url("../images/thumb-ss.jpg") no-repeat center;
   background-size: cover; }
 
 .go-thumb {
-  background: url("images/thumb-go.jpg") no-repeat center;
+  background: url("../images/thumb-go.jpg") no-repeat center;
   background-size: cover; }
 
 .kucd-thumb {
-  background: url("images/thumb-kucd.jpg") no-repeat center;
+  background: url("../images/thumb-kucd.jpg") no-repeat center;
   background-size: cover; }
 
 .jf-thumb {
-  background: url("images/thumb-jf.jpg") no-repeat center;
+  background: url("../images/thumb-jf.jpg") no-repeat center;
   background-size: cover; }
 
 .gs-thumb {
-  background: url("images/thumb-gs.jpg") no-repeat center;
+  background: url("../images/thumb-gs.jpg") no-repeat center;
   background-size: cover; }
 
 .mw-thumb {
-  background: url("images/thumb-wp.jpg") no-repeat center;
+  background: url("../images/thumb-wp.jpg") no-repeat center;
   background-size: cover; }
 
 .port-item img {
@@ -525,7 +525,7 @@ a.back-to-top {
   nav {
     display: none; }
 
-  .icon-menu {
+  .fa-bars {
     display: block;
     cursor: pointer;
     position: relative;
@@ -572,8 +572,10 @@ a.back-to-top {
   input, textarea {
     width: 95%; }
 
-  .icon-menu {
+  .fa-bars {
     left: 66%; } }
 @media screen and (max-width: 440px) {
   #contact {
     margin-bottom: 93px; } }
+
+/*# sourceMappingURL=style.css.map */
